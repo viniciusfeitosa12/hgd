@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff;
+    color: #333;
+  }
+
+  /* Navbar */
+  header {
+    background: #1800ad;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+
+  header h1 {
+    margin: 0;
+  }
+
+  nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  .btn-plataforma {
+    background: white;
+    color: #1800ad;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+
+  .btn-plataforma:hover {
+    background: #f1f1f1;
+  }
+
+  /* Hero */
+  .hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(90deg, #1800ad, #2d2dff);
+    color: white;
+  }
+
+  .hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .hero p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: 0 auto 20px;
+  }
+
+  .hero a {
+    display: inline-block;
+    background: white;
+    color: #1800ad;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .hero a:hover {
+    background: #f1f1f1;
+  }
+
+  section {
+    padding: 60px 10%;
+    text-align: center;
+  }
+
+  section h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #1800ad;
+  }
+
+  section p {
+    font-size: 16px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+
+  /* Serviços */
+  .servicos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+  }
+
+  .card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    text-align: left;
+  }
+
+  .card h4 {
+    color: #1800ad;
+    margin-bottom: 10px;
+  }
+
+  /* Localização */
+/* Container principal do mapa */
+.embed-map-fixed {
+width: 100%;
+margin: 0;
+padding: 0;
+}
+
+/* Caixa do mapa ocupando toda a largura */
+.embed-map-container {
+width: 100%;
+height: 500px; /* pode mudar conforme desejar */
+border-radius: 0; /* retira cantos arredondados, se quiser */
+overflow: hidden;
+}
+
+/* O iframe ocupa 100% do espaço */
+.embed-map-frame {
+width: 100%;
+height: 100%;
+border: 0;
+}
+.embed-map-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+  /* Contato */
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: grid;
+    gap: 15px;
+  }
+
+  input, textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+
+  button {
+    background: #1800ad;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: #0f0080;
+  }
+
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #1800ad;
+    color: white;
+    margin-top: 40px;
+  }
